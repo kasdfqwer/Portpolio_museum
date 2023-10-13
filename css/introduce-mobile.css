@@ -1,0 +1,259 @@
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+    #wrap {
+        width: 100%;
+    }
+
+    header .mobile-menu {
+        padding: 0 1.25em 3.125em 1.25em; /* 0 20px 50px 20px */
+    }
+
+    header .mobile-nav {
+        height: 80px;
+        padding: 0 1.25em; /* 0 20px */
+    }
+    header .mobile-nav .logo a img {
+        width: 130px; height: 35px;
+    }
+    header .mobile-nav .m-util a {
+        width: 19px; height: 19px;
+        margin-right: 20px;
+    }
+    header .mobile-menu .mm-header .m-language {
+        margin-left: -1.25em;
+    }
+    header .mobile-nav .m-util .m-btn-menuOpen {
+        width: 21px; height: 15px;
+    }
+    header .mobile-menu .mm-header .m-language > a  {
+        font-size: 1.4rem;
+        padding: 1em 1.429em 1.071em 1.429em; /* 14px 20px 15px 20px */
+    }
+    header .mobile-menu .mm-header .m-language > a i {
+        width: 15px; height: 14px;
+    }
+    header .mobile-menu .mm-header .m-language > ul {
+        top: 48px;
+    }
+    header .mobile-menu .mm-header .m-language > ul > li > ul > li a {
+        font-size: 1.4rem;
+    }
+    header .mobile-menu .mm-header .m-btn-menuClose {
+        width: 20px; height: 20px;
+    }
+    header .mobile-menu .log-area > a {
+        font-size: 2.6rem;
+    }
+    header .mobile-menu .etc-menu {
+        margin: 1.063em 0 ; padding: 0.938em 1.563em; /* 15px 25px */
+    }
+    header .mobile-menu .log-area .etc-area a {
+        font-size: 1.9rem;
+    }
+    header .mobile-menu .etc-menu a span {
+        font-size: 1.6rem;
+    }
+    header .mobile-menu .etc-menu a:first-child img {
+        width: 22px;
+    }
+    header .mobile-menu .etc-menu a:nth-child(2) img {
+        width: 19.5px; height: 29px;
+    }
+    header .mobile-menu .etc-menu a:nth-child(3) img {
+        width: 22.5px;
+    }
+    header .mobile-menu .etc-menu a:nth-child(4) img {
+        width: 22px;
+    }
+    header .mobile-menu .etc-menu a:last-child img {
+        width: 23px;
+    }
+    header .mobile-menu .mm-nav {
+        padding: 0;
+    }
+    header .mobile-menu .mm-nav .nav-title > li > a {
+        font-size: 2.2rem;
+    }
+    header .mobile-menu .mm-nav .nav-title > li > a:after {
+        width: 20px; height: 12px;
+    }
+    header .mobile-menu .mm-nav .nav-title > li .nav-sub {
+        padding-bottom: 0.938em; /* 15px */
+    }
+    header .mobile-menu .mm-nav .nav-title > li .nav-sub ul li a {
+        font-size: 1.8rem;
+    }
+    .location_option {
+        width: 100%;
+        padding: 0 20px;
+        margin: 20px auto 25px;
+    }
+    .location_option .option a img {
+        width: 23px; height: 20px;
+    }
+    .location_option .option a + a {
+        margin-left: 10px;
+    }
+    .location_option .location a img {
+        width: 12px; height: 12px;
+    }
+    .location_option .location a + a {
+        font-size: 14px;
+    }
+    .location_option .location a + a:before {
+        width: 5px; height: 8px;
+        margin: 0 5px;
+    }
+
+    .contents h2 {
+        font-size: 30px;
+        margin-bottom: 40px; padding: 0 20px;
+    }
+    .contents .right-top-mobile {
+        font-size: 30px;
+        word-break: normal;
+        margin: 50px auto 0;
+        padding: 0 20px;
+    }
+    .contents .right-top-mobile p {
+        display: inline;
+        font-size: 30px;
+    }
+    .contents .right-top-mobile p span {
+        font-size: 30px;
+    }
+    .greetings_left {
+        padding: 0 20px;
+    }
+    .greetings_left h3 {
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    .greetings_left p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 23px;
+    }
+    .greetings_right {
+        margin-bottom: 10px;
+    }
+    .greetings_right .first {
+        padding: 0 20px;
+    }
+    .right_list .first .red {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 22px;
+    }
+    .right_list .first .gray {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 55px;
+    }
+    .title_black {
+        padding: 0 20px;
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    .title_gray {
+        padding: 0 20px;
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 60px;
+    }
+    .greetings_right .right_list div:last-child p:last-child {
+        margin-top: 60px;
+    }
+    .greetings_right .name {
+        font-size: 16px;
+        padding: 0 20px 60px;
+    }
+    .greetings_right .name span {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+
+
+    .allMenuList {
+        padding: 0 1.25em; /* 0 20px */
+    }
+    .menu_etc a {
+        font-size: 1.6rem;
+        padding-right: 0.625em;
+    }
+    .menu_etc a img {
+        height: 18px;
+        margin-left: 0;
+    }
+    footer {
+        padding: 0 1.25em; /* 0 20px */
+    }
+    footer .menu01 a {
+        font-size: 1.8rem;
+    }
+    footer .menu02 .footer-link .link-btn span {
+        font-size: 1.8rem;
+        background-size: 25.5px 14.5px;
+        border-bottom: 1px solid #000;
+    }
+    footer .menu02 .footer-link .link-btn.on span {
+        background-size: 25.5px 14.5px;
+    }
+    footer .menu02 .footer-link ul {
+        bottom: 0;
+    }
+    footer .menu02 .footer-link ul li a {
+        font-size: 1.4rem;
+    }
+    footer .menu04 .sns {
+        width: 50%;
+        margin: 2.5em auto 0; /* 40px auto 0 */
+    }
+    footer .menu04 .sns a img {
+        height: 26px;
+    }
+    footer .menu04 .m-guide-link {
+        margin: 2.188em auto; /* 35px auto */
+    }
+    footer .menu04 .m-guide-link a {
+        font-size: 4vw
+    }
+    footer .menu04 .address-tell p {
+        font-size: 1.5rem;
+    }footer .menu04 .address-tell .copy {
+        margin: 1em 0 2.333em 0; /* 15px 35px */
+    }
+    .top-btn {
+        display: none;
+    }
+    .search-area {
+        height: 415px;
+    }
+    .search-area .inner {
+        padding: 0 20px;
+    }
+    .search-area .inner .top {
+        margin-top: 25px;
+    }
+    .search-area .inner .top .logo img {
+        width: 150px;
+    }
+    .search-area .inner .top .btn-close {
+        width: 20px; height: 20px;
+    }
+    .search-area .inner .search-input {
+        top: 50%;
+    }
+    .search-area .inner .search-input input {
+        font-size: 1.6rem;
+        height: 50px;
+    }
+    .search-area .inner .search-input .btn-search {
+        width: 60px; height: 50px;
+    }
+    .search-area .inner .search-input input::placeholder {
+        font-size: 1.6rem;
+    }
+}

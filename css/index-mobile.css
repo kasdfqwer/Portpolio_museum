@@ -1,0 +1,363 @@
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+    #wrap {
+        width: 100%;
+    }
+
+    header .mobile-menu {
+        padding: 0 1.25em 3.125em 1.25em; /* 0 20px 50px 20px */
+    }
+
+    header .mobile-nav {
+        height: 80px;
+        padding: 0 1.25em; /* 0 20px */
+    }
+    header .mobile-nav .logo a img {
+        width: 130px; height: 35px;
+    }
+    header .mobile-nav .m-util a {
+        width: 19px; height: 19px;
+    }
+    header .mobile-menu .mm-header .m-language {
+        margin-left: -1.25em;
+    }
+    header .mobile-nav .m-util .m-btn-menuOpen {
+        width: 21px; height: 15px;
+    }
+    header .mobile-menu .mm-header .m-language > a  {
+        font-size: 1.4rem;
+        padding: 1em 1.429em 1.071em 1.429em; /* 14px 20px 15px 20px */
+    }
+    header .mobile-menu .mm-header .m-language > a i {
+        width: 15px; height: 14px;
+    }
+    header .mobile-menu .mm-header .m-language > ul {
+        top: 48px;
+    }
+    header .mobile-menu .mm-header .m-language > ul > li > ul > li a {
+        font-size: 1.4rem;
+    }
+    header .mobile-menu .mm-header .m-btn-menuClose {
+        width: 20px; height: 20px;
+    }
+    header .mobile-menu .log-area > a {
+        font-size: 2.6rem;
+    }
+    header .mobile-menu .etc-menu {
+        margin: 1.063em 0 ; padding: 0.938em 1.563em; /* 15px 25px */
+    }
+    header .mobile-menu .log-area .etc-area a {
+        font-size: 1.9rem;
+    }
+    header .mobile-menu .etc-menu a span {
+        font-size: 1.6rem;
+    }
+    header .mobile-menu .etc-menu a:first-child img {
+        width: 22px;
+    }
+    header .mobile-menu .etc-menu a:nth-child(2) img {
+        width: 19.5px; height: 29px;
+    }
+    header .mobile-menu .etc-menu a:nth-child(3) img {
+        width: 22.5px;
+    }
+    header .mobile-menu .etc-menu a:nth-child(4) img {
+        width: 22px;
+    }
+    header .mobile-menu .etc-menu a:last-child img {
+        width: 23px;
+    }
+    header .mobile-menu .mm-nav {
+        padding: 0;
+    }
+    header .mobile-menu .mm-nav .nav-title > li > a {
+        font-size: 2.2rem;
+    }
+    header .mobile-menu .mm-nav .nav-title > li > a:after {
+        width: 20px; height: 12px;
+    }
+    header .mobile-menu .mm-nav .nav-title > li .nav-sub {
+        padding-bottom: 0.938em; /* 15px */
+    }
+    header .mobile-menu .mm-nav .nav-title > li .nav-sub ul li a {
+        font-size: 1.8rem;
+    }
+    .main-slide .swiper-pagination {
+        right: 10%;
+    }
+    .main-slide .swiper-button-next, .main-slide .swiper-button-prev,
+    .main-slide .swiper-button-next, .main-slide .swiper-button-next {
+        display: none;
+    }
+    .main-slide .swiper-pagination-bullet {
+        width: 14px; height: 14px;
+    }
+    .main-slide .swiper-btn {
+        width: 25px; height: 25px;
+        right: 3%; bottom: 4.5%;
+    }
+    .about {
+        padding: 0 1.25em;
+        border-bottom: 3px solid #000000;
+    }
+    .about .time-price {
+        padding: 0;
+    }
+    .about .time-price .time-title .title {
+        margin-bottom: 1.563em; /* 25px */
+    }
+    .about .time-price .time-title .title img {
+        width: 22px; height: 22px;
+        margin-right: 0.625em; /* 10px */
+    } 
+    .about .time-price .time-title .title span {
+        font-size: 2.1rem;
+    }
+    .about .time-price .time-title .time-table div .date {
+        width: 150px;
+        font-size: 1.4rem;
+    }
+    .about .time-price .time-title .time-table div .time {
+        font-size: 1.5rem;
+    }
+    .about .time-price .time-title .time-table .time-guide {
+        font-size: 1.5rem;
+    }
+    .about .time-price .price {
+        margin: 3.125em 0 2.5em;
+    }
+    .about .time-price .price .title {
+        margin-bottom: 1.563em; /* 25px */
+    }
+    .about .time-price .price .title img {
+        width: 21px; height: 20px;
+    }
+    .about .time-price .price .title span {
+        font-size: 2.1rem;
+    }
+    .about .time-price .price .price-guide .free {
+        font-size: 1.4rem;
+    }
+    .about .time-price .price .price-guide .time-guide {
+        font-size: 1.5rem;
+    }
+    .about .road-reserve {
+        bottom: -100px;
+    }
+    .about .road-reserve a {
+        font-size: 3.1rem;
+    }
+    .exhi-list {
+        margin-top: 9.375em; /* 150px */ padding: 0 1.25em; /* 0 20px */
+    }
+    .exhi-list .title-area h2 {
+        font-size: 3rem;
+    }
+    .exhi-list .btn_area .swiper-button-prev,
+    .exhi-list .btn_area .swiper-button-next {
+        width: 12px; height: 24px;
+    }
+    .exhi-list .btn_area .swiper-btn {
+        width: 14px; height: 17px;
+        margin: 0 1.25em; /* 0 20px */
+        bottom: 2.5px;
+    }
+    .exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .text-area .type {
+        margin-bottom: 1.563em; /* 25px */
+    }
+    .exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .text-area .type span {
+        font-size: 1.4rem;
+    }
+    .exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .text-area .title {
+        font-size: 1.8rem;
+    }
+    .exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .text-area .date {
+        font-size: 1.3rem;
+    }
+    .notice-area {
+        padding: 2.5em 1.25em 0;
+    }
+    .notice-area h2 {
+        font-size: 3rem;
+    }
+    .notice-area h2 img {
+        width: 18px; height: 26px;
+    }
+    .notice-area .notice-contents .notice-board {
+        margin-bottom: 2.188em; /* 35px */
+        padding-bottom: 0.938em; /* 0 15px */
+        border-bottom: 1px solid #000;
+    }
+    .notice-slide .btn-area {
+        right: 0;
+    }
+    .notice-slide .swiper-pagination-bullet {
+        width: 18px; height: 18px;
+    }
+    .notice-slide .swiper-btn.pause {
+        width: 25px; height: 25px;
+    }
+    .notice-board .board-title a {
+        width: 25%;
+    }
+    .notice-board .board-title a {
+        font-size: 1.8rem;
+    }
+    .notice-board .board-listArea .board-list li {
+        margin-top: 1.5em;
+    }
+    .notice-board .board-listArea .board-list li span {
+        font-size: 1.4rem;
+    }
+    .notice-board .board-listArea .board-list li div:before {
+        width: 3px; height: 3px;
+        top: 30%;
+        transform: none;
+    }
+    .notice-board .board-listArea .board-list li div {
+        max-width: calc(100% - 93px);
+    }
+    .notice-board .board-listArea .board-list li div a {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    .etc-section {
+        padding: 0 1.25em;
+    }
+    .etc-section .edu h2 {
+        font-size: 3rem;
+    }
+    .etc-section .edu .txt {
+        font-size: 2rem;
+        margin: 1em 0 0 0;
+    }
+    .etc-section .edu {
+        margin-bottom: 2.188em;
+    }
+    .etc-section .event .title-area h2 {
+        font-size: 3rem;
+    }
+    .etc-section .event .title-area .btn-area .swiper-button-prev,
+    .etc-section .event .title-area .btn-area .swiper-button-next {
+        width: 12px; height: 25px;
+    }
+    .etc-section .event .title-area .btn-area .swiper-pagination {
+        font-size: 1.8rem;
+    }
+    .etc-section .txt {
+        margin: 1em 0 0.5em 0;
+        font-size: 2rem;
+        line-height: 1.4em; /* 28px */
+    }
+    .etc-section .event .txt-box .date {
+        font-size: 1.4rem;
+    }
+    .etc-section .onExbi {
+        margin: 3.438em 0 6.25em; /* 55px 100px */
+    }
+    .onExbi .title-area {
+        margin-bottom: 7.82vw;
+    }
+    .onExbi .title-area .left h2 {
+        font-size: 2.6rem;
+    }
+    .onExbi .title-area .btn-area .swiper-button-prev,
+    .onExbi .title-area .btn-area .swiper-button-next {
+        width: 12px; height: 25px;
+    }
+    .onExbi .title-area .btn-area .swiper-pagination {
+        font-size: 1.8rem;
+    }
+    .onExbi .onExbi-slide .swiper-wrapper .swiper-slide .img-box {
+        min-height: auto;
+    }
+    .onExbi .onExbi-slide .swiper-wrapper .swiper-slide .img-box a {
+        min-height: 220px;
+    }
+    .etc-section .onExbi .onExbi-slide .swiper-wrapper .swiper-slide .onExbi-slide-title {
+        font-size: 2rem;
+        line-height: 1.4em; /* 28px */
+    }
+    .allMenuList {
+        padding: 0 1.25em; /* 0 20px */
+    }
+    .menu_etc a {
+        font-size: 1.6rem;
+        padding-right: 0.625em;
+    }
+    .menu_etc a img {
+        height: 18px;
+        margin-left: 0;
+    }
+    footer {
+        padding: 0 1.25em; /* 0 20px */
+    }
+    footer .menu01 a {
+        font-size: 1.8rem;
+    }
+    footer .menu02 .footer-link .link-btn span {
+        font-size: 1.8rem;
+        background-size: 25.5px 14.5px;
+        border-bottom: 1px solid #000;
+    }
+    footer .menu02 .footer-link .link-btn.on span {
+        background-size: 25.5px 14.5px;
+    }
+    footer .menu02 .footer-link ul {
+        bottom: 0;
+    }
+    footer .menu02 .footer-link ul li a {
+        font-size: 1.4rem;
+    }
+    footer .menu04 .sns {
+        width: 50%;
+        margin: 2.5em auto 0; /* 40px auto 0 */
+    }
+    footer .menu04 .sns a img {
+        height: 26px;
+    }
+    footer .menu04 .m-guide-link {
+        margin: 2.188em auto; /* 35px auto */
+    }
+    footer .menu04 .m-guide-link a {
+        font-size: 4vw
+    }
+    footer .menu04 .address-tell p {
+        font-size: 1.5rem;
+    }footer .menu04 .address-tell .copy {
+        margin: 1em 0 2.333em 0; /* 15px 35px */
+    }
+    .top-btn {
+        display: none;
+    }
+    .search-area {
+        height: 415px;
+    }
+    .search-area .inner {
+        padding: 0 20px;
+    }
+    .search-area .inner .top {
+        margin-top: 25px;
+    }
+    .search-area .inner .top .logo img {
+        width: 150px;
+    }
+    .search-area .inner .top .btn-close {
+        width: 20px; height: 20px;
+    }
+    .search-area .inner .search-input {
+        top: 50%;
+    }
+    .search-area .inner .search-input input {
+        font-size: 1.6rem;
+        height: 50px;
+    }
+    .search-area .inner .search-input .btn-search {
+        width: 60px; height: 50px;
+    }
+    .search-area .inner .search-input input::placeholder {
+        font-size: 1.6rem;
+    }
+}
