@@ -413,12 +413,32 @@ nav .logSearch_list a:last-child {
 }
 .exhi-list .exhi-swiper .swiper-wrapper .swiper-slide > .img-area   {
     display: block;
+    position: relative;
     width: 100%; height: 450px;
+    cursor: pointer;
+}
+.exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .img-area .black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: auto; height: auto;
+    background: rgba(0, 0, 0, .6);
+    opacity: 0;
+    transition: all .3s;
+}
+.exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .img-area .black p {
+    font-size: 1.875em;
+    color: #fff;
+}
+.exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .img-area:hover .black {
+    opacity: 1;
 }
 .exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .img-area img {
     width: 100%; height: 100%;
 }
-.exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .img-area img:last-child {
+.exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .img-area .mobile-img {
     display: none;
 }
 .exhi-list .exhi-swiper .swiper-wrapper .swiper-slide .text-area {
